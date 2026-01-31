@@ -110,13 +110,13 @@ The use of the term `n-1` is commonly referred to as Bessel's correction. Note, 
 ## Usage
 
 ```javascript
-import varianceyc from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-varianceyc@esm/index.mjs';
+import varianceyc from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-varianceyc@v0.1.0-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-varianceyc@esm/index.mjs';
+import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-varianceyc@v0.1.0-esm/index.mjs';
 ```
 
 #### varianceyc( N, correction, x, strideX )
@@ -214,7 +214,7 @@ var v = varianceyc.ndarray( 4, 1.0, x, 2, 1 );
 <script type="module">
 
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@esm/index.mjs';
-import varianceyc from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-varianceyc@esm/index.mjs';
+import varianceyc from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-varianceyc@v0.1.0-esm/index.mjs';
 
 var x = uniform( 10, -50.0, 50.0, {
     'dtype': 'generic'
